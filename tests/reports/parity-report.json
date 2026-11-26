@@ -1,0 +1,1591 @@
+{
+ "scenarios": 12000,
+ "compared": 11780,
+ "skipped": 220,
+ "errors": 0,
+ "errorSamples": [],
+ "statParity": {
+  "checked": 144000,
+  "mismatches": 0,
+  "samples": [],
+  "unknown": []
+ },
+ "hpMismatch": 0,
+ "exactPct": 100,
+ "anyFlipPct": 0,
+ "flipKinds": {
+  "ohkoRolls": 0,
+  "guaranteedN": 0,
+  "possibleN": 0
+ },
+ "tiers": {
+  "bare": {
+   "n": 3518,
+   "exactPct": 100,
+   "flipPct": 0
+  },
+  "single": {
+   "n": 4679,
+   "exactPct": 100,
+   "flipPct": 0
+  },
+  "mixed": {
+   "n": 3583,
+   "exactPct": 100,
+   "flipPct": 0
+  }
+ },
+ "histogram": {
+  "min": {
+   "0": 11780
+  },
+  "max": {
+   "0": 11780
+  }
+ },
+ "byFeature": [
+  {
+   "key": "crit",
+   "n": 293,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-hp",
+   "n": 227,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-hp",
+   "n": 217,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "burn",
+   "n": 203,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-boost",
+   "n": 162,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "wonder-room",
+   "n": 155,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-boost",
+   "n": 150,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "magic-room",
+   "n": 142,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "gravity",
+   "n": 138,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "helping-hand",
+   "n": 121,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "doubles",
+   "n": 107,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "screen:Reflect",
+   "n": 91,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "screen:LightScreen",
+   "n": 88,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "terrain:misty",
+   "n": 72,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "screen:AuroraVeil",
+   "n": 72,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "terrain:grassy",
+   "n": 58,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:toxic",
+   "n": 48,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-side:PowerTrick",
+   "n": 48,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "terrain:psychic",
+   "n": 47,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-side:SteelySpirit",
+   "n": 45,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "terrain:electric",
+   "n": 44,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-side:FlowerGift",
+   "n": 43,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-side:PowerSpot",
+   "n": 42,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:burn",
+   "n": 42,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-side:Battery",
+   "n": 40,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-side:PowerTrick",
+   "n": 39,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:burn",
+   "n": 39,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "weather:sun",
+   "n": 37,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-side:FriendGuard",
+   "n": 37,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:asleep",
+   "n": 36,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-side:Charge",
+   "n": 36,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:toxic",
+   "n": 35,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "weather:sand",
+   "n": 35,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:poison",
+   "n": 35,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:frozen",
+   "n": 34,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:asleep",
+   "n": 33,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "weather:snow",
+   "n": 33,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:paralysis",
+   "n": 32,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:paralysis",
+   "n": 32,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-side:FlowerGift",
+   "n": 32,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "weather:heavy-rain",
+   "n": 29,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "weather:harsh-sunshine",
+   "n": 29,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-side:Foresight",
+   "n": 28,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:poison",
+   "n": 28,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:frozen",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "weather:strong-winds",
+   "n": 26,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "weather:rain",
+   "n": 21,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:meadow-plate",
+   "n": 12,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:multiscale",
+   "n": 11,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:marvel-scale",
+   "n": 11,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:soft-sand",
+   "n": 11,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:iron-plate",
+   "n": 10,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:lightning-rod",
+   "n": 9,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:flash-fire",
+   "n": 9,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:spell-tag",
+   "n": 9,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:unaware",
+   "n": 9,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:filter",
+   "n": 9,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:fist-plate",
+   "n": 9,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:flame-plate",
+   "n": 9,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:charti-berry",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:coba-berry",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:storm-drain",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:prism-armor",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:pixie-plate",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:mold-breaker",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:expert-belt",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:fur-coat",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:fluffy",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:silk-scarf",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:metal-coat",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:aerilate",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:eviolite",
+   "n": 8,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:sand-force",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:icicle-plate",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:black-glasses",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:polkadot-bow",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:levitate",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:zap-plate",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:reckless",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:odd-incense",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:dry-skin",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:volt-absorb",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:roseli-berry",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:shadow-shield",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:charcoal",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:pink-bow",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:rindo-berry",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:blaze",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:mega-launcher",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:never-melt-ice",
+   "n": 7,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:wave-incense",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:kasib-berry",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:twisted-spoon",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:thick-fat",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:strong-jaw",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:dragon-fang",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:earth-plate",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:miracle-seed",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:rose-incense",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:pixilate",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:haban-berry",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:sky-plate",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:stone-plate",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:wonder-guard",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:punk-rock",
+   "n": 6,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:silver-powder",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:choice-band",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:ice-scales",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:kebia-berry",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:adaptability",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:life-orb",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:colbur-berry",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:occa-berry",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:galvanize",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:turboblaze",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:neuroforce",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:insect-plate",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:flare-boost",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:sharp-beak",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:water-absorb",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:chilan-berry",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:swarm",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:solid-rock",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:tanga-berry",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:passho-berry",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:black-belt",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:sap-sipper",
+   "n": 5,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:steelworker",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:libero",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:shuca-berry",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:water-bubble",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-item:chople-berry",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:trace",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:mold-breaker",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:sheer-force",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:normalize",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:solar-power",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:mystic-water",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:sea-incense",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:spooky-plate",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-ability:toxic-boost",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-ability:grass-pelt",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-item:poison-barb",
+   "n": 4,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  }
+ ],
+ "byMove": [
+  {
+   "key": "dragon-darts",
+   "n": 34,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "wicked-blow",
+   "n": 33,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "gear-grind",
+   "n": 32,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "knock-off",
+   "n": 31,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "pin-missile",
+   "n": 30,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "fury-swipes",
+   "n": 29,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "low-kick",
+   "n": 29,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "crush-claw",
+   "n": 28,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "surging-strikes",
+   "n": 28,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "psystrike",
+   "n": 28,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "poltergeist",
+   "n": 28,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "sucker-punch",
+   "n": 28,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "stomping-tantrum",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "frost-breath",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "dragon-energy",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "shell-side-arm",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "ice-ball",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "synchronoise",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "round",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "dual-wingbeat",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "first-impression",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "wring-out",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "belch",
+   "n": 27,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "steel-roller",
+   "n": 26,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "metal-burst",
+   "n": 26,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  }
+ ],
+ "byDirection": [
+  {
+   "key": "ko",
+   "n": 5909,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "survive",
+   "n": 5871,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  }
+ ],
+ "bareMisses": [],
+ "worst": [],
+ "meta": {
+  "n": 12000,
+  "seed": 4,
+  "movePool": 370,
+  "calcVersion": "0.12.0",
+  "seconds": 3.1
+ }
+}

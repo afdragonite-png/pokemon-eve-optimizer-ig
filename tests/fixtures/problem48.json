@@ -1,0 +1,168 @@
+{
+ "id": 48,
+ "level": 5,
+ "you": {
+  "species": "Mandibuzz"
+ },
+ "goals": [
+  {
+   "type": "survive",
+   "move": {
+    "slug": "thousand-waves",
+    "name": "Thousand Waves",
+    "type": "ground",
+    "power": 90,
+    "category": "physical",
+    "hasSecondary": false,
+    "target": "allAdjacentFoes"
+   },
+   "opp": {
+    "species": "Flygon",
+    "nature": "Naughty",
+    "evs": {
+     "hp": 0,
+     "attack": 0,
+     "speed": 124,
+     "defense": 172,
+     "special-attack": 76,
+     "special-defense": 8
+    },
+    "ivs": {
+     "hp": 1,
+     "attack": 30,
+     "defense": 17,
+     "special-attack": 3,
+     "special-defense": 8,
+     "speed": 14
+    },
+    "item": "",
+    "ability": "",
+    "status": "none",
+    "stages": {
+     "attack": 0,
+     "defense": 0,
+     "special-attack": 0,
+     "special-defense": 0,
+     "speed": 0
+    }
+   }
+  },
+  {
+   "type": "outspeed",
+   "opp": {
+    "species": "Hippowdon",
+    "nature": "Hasty",
+    "evs": {
+     "hp": 220,
+     "attack": 8,
+     "speed": 220,
+     "special-defense": 0,
+     "defense": 60,
+     "special-attack": 0
+    },
+    "ivs": {
+     "hp": 31,
+     "attack": 31,
+     "defense": 31,
+     "special-attack": 31,
+     "special-defense": 31,
+     "speed": 31
+    },
+    "item": "",
+    "ability": "",
+    "status": "none",
+    "stages": {
+     "attack": 0,
+     "defense": 0,
+     "special-attack": 0,
+     "special-defense": 0,
+     "speed": 0
+    }
+   }
+  },
+  {
+   "type": "ko",
+   "move": {
+    "slug": "liquidation",
+    "name": "Liquidation",
+    "type": "water",
+    "power": 85,
+    "category": "physical",
+    "hasSecondary": true
+   },
+   "opp": {
+    "species": "Sunkern",
+    "nature": "Naive",
+    "evs": {
+     "defense": 36,
+     "hp": 244,
+     "attack": 172,
+     "special-attack": 12,
+     "special-defense": 44,
+     "speed": 0
+    },
+    "ivs": {
+     "hp": 0,
+     "attack": 31,
+     "defense": 31,
+     "special-attack": 0,
+     "special-defense": 0,
+     "speed": 31
+    },
+    "item": "",
+    "ability": "",
+    "status": "none",
+    "stages": {
+     "attack": 0,
+     "defense": 0,
+     "special-attack": 0,
+     "special-defense": 0,
+     "speed": 0
+    }
+   }
+  },
+  {
+   "type": "survive",
+   "move": {
+    "slug": "thunder-fang",
+    "name": "Thunder Fang",
+    "type": "electric",
+    "power": 65,
+    "category": "physical",
+    "hasSecondary": true
+   },
+   "opp": {
+    "species": "Wattrel",
+    "nature": "Relaxed",
+    "evs": {
+     "special-defense": 124,
+     "hp": 76,
+     "attack": 76,
+     "special-attack": 92,
+     "defense": 0,
+     "speed": 140
+    },
+    "ivs": {
+     "hp": 31,
+     "attack": 31,
+     "defense": 31,
+     "special-attack": 31,
+     "special-defense": 31,
+     "speed": 31
+    },
+    "item": "",
+    "ability": "",
+    "status": "none",
+    "stages": {
+     "attack": 0,
+     "defense": 0,
+     "special-attack": 0,
+     "special-defense": 0,
+     "speed": 0
+    }
+   }
+  }
+ ],
+ "surviveHits": 2,
+ "koHits": 1
+}

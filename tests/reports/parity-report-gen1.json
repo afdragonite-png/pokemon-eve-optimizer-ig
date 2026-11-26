@@ -1,0 +1,672 @@
+{
+ "scenarios": 10000,
+ "compared": 9136,
+ "skipped": 864,
+ "errors": 0,
+ "errorSamples": [],
+ "statParity": {
+  "checked": 120000,
+  "mismatches": 8186,
+  "samples": [
+   {
+    "species": "Magneton",
+    "stat": "hp",
+    "nature": "Lonely",
+    "mine": 118,
+    "theirs": 119
+   },
+   {
+    "species": "Haunter",
+    "stat": "hp",
+    "nature": "Hasty",
+    "mine": 149,
+    "theirs": 145
+   },
+   {
+    "species": "Kabuto",
+    "stat": "hp",
+    "nature": "Calm",
+    "mine": 87,
+    "theirs": 80
+   },
+   {
+    "species": "Kabutops",
+    "stat": "hp",
+    "nature": "Adamant",
+    "mine": 255,
+    "theirs": 273
+   },
+   {
+    "species": "Jynx",
+    "stat": "hp",
+    "nature": "Rash",
+    "mine": 291,
+    "theirs": 289
+   }
+  ],
+  "unknown": [
+   "Magneton:hp",
+   "Haunter:hp",
+   "Kabuto:hp",
+   "Kabutops:hp",
+   "Jynx:hp",
+   "Nidoran-F:hp",
+   "Koffing:hp",
+   "Voltorb:hp",
+   "Jigglypuff:hp",
+   "Pidgeotto:hp",
+   "Vileplume:hp",
+   "Charmeleon:hp",
+   "Weedle:hp",
+   "Cubone:hp",
+   "Kadabra:hp",
+   "Mr. Mime:hp",
+   "Raichu:hp",
+   "Persian:hp",
+   "Tentacool:hp",
+   "Golbat:hp",
+   "Drowzee:hp",
+   "Meowth:hp",
+   "Butterfree:hp",
+   "Kakuna:hp",
+   "Mew:hp",
+   "Abra:hp",
+   "Ekans:hp",
+   "Poliwhirl:hp",
+   "Magnemite:hp",
+   "Charmander:hp",
+   "Fearow:hp",
+   "Marowak:hp",
+   "Ninetales:hp",
+   "Shellder:hp",
+   "Starmie:hp",
+   "Nidoking:hp",
+   "Seel:hp",
+   "Poliwag:hp",
+   "Ditto:hp",
+   "Aerodactyl:hp",
+   "Kangaskhan:hp",
+   "Mewtwo:hp",
+   "Tentacruel:hp",
+   "Paras:hp",
+   "Pidgey:hp",
+   "Electabuzz:hp",
+   "Mankey:hp",
+   "Alakazam:hp",
+   "Wigglytuff:hp",
+   "Horsea:hp",
+   "Hitmonchan:hp",
+   "Cloyster:hp",
+   "Squirtle:hp",
+   "Hypno:hp",
+   "Onix:hp",
+   "Vulpix:hp",
+   "Pinsir:hp",
+   "Zubat:hp",
+   "Golem:hp",
+   "Primeape:hp",
+   "Dodrio:hp",
+   "Goldeen:hp",
+   "Hitmonlee:hp",
+   "Geodude:hp",
+   "Arcanine:hp",
+   "Gastly:hp",
+   "Golduck:hp",
+   "Slowbro:hp",
+   "Nidoqueen:hp",
+   "Gloom:hp",
+   "Metapod:hp",
+   "Beedrill:hp",
+   "Zapdos:hp",
+   "Exeggutor:hp",
+   "Venomoth:hp",
+   "Rhyhorn:hp",
+   "Parasect:hp",
+   "Articuno:hp",
+   "Exeggcute:hp",
+   "Snorlax:hp",
+   "Dragonair:hp",
+   "Blastoise:hp",
+   "Magikarp:hp",
+   "Seadra:hp",
+   "Growlithe:hp",
+   "Tauros:hp",
+   "Sandshrew:hp",
+   "Pikachu:hp",
+   "Diglett:hp",
+   "Rattata:hp",
+   "Arbok:hp",
+   "Dugtrio:hp",
+   "Machoke:hp",
+   "Pidgeot:hp",
+   "Doduo:hp",
+   "Jolteon:hp",
+   "Eevee:hp",
+   "Vaporeon:hp",
+   "Wartortle:hp",
+   "Bellsprout:hp",
+   "Poliwrath:hp",
+   "Dratini:hp",
+   "Psyduck:hp",
+   "Chansey:hp",
+   "Sandslash:hp",
+   "Scyther:hp",
+   "Bulbasaur:hp",
+   "Graveler:hp",
+   "Clefairy:hp",
+   "Seaking:hp",
+   "Machamp:hp",
+   "Ponyta:hp",
+   "Dewgong:hp",
+   "Nidoran-M:hp",
+   "Lapras:hp",
+   "Moltres:hp",
+   "Kingler:hp",
+   "Caterpie:hp",
+   "Rapidash:hp",
+   "Nidorino:hp",
+   "Krabby:hp",
+   "Flareon:hp",
+   "Clefable:hp",
+   "Nidorina:hp",
+   "Ivysaur:hp",
+   "Oddish:hp",
+   "Machop:hp",
+   "Tangela:hp",
+   "Grimer:hp",
+   "Weepinbell:hp",
+   "Venusaur:hp",
+   "Raticate:hp",
+   "Lickitung:hp",
+   "Muk:hp",
+   "Slowpoke:hp",
+   "Farfetch’d:hp",
+   "Rhydon:hp",
+   "Omastar:hp",
+   "Spearow:hp",
+   "Porygon:hp",
+   "Gyarados:hp",
+   "Staryu:hp",
+   "Weezing:hp",
+   "Gengar:hp",
+   "Victreebel:hp",
+   "Dragonite:hp",
+   "Charizard:hp",
+   "Venonat:hp",
+   "Omanyte:hp",
+   "Electrode:hp",
+   "Magmar:hp"
+  ]
+ },
+ "hpMismatch": 0,
+ "exactPct": 100,
+ "anyFlipPct": 0,
+ "flipKinds": {
+  "ohkoRolls": 0,
+  "guaranteedN": 0,
+  "possibleN": 0
+ },
+ "tiers": {
+  "bare": {
+   "n": 2765,
+   "exactPct": 100,
+   "flipPct": 0
+  },
+  "single": {
+   "n": 3571,
+   "exactPct": 100,
+   "flipPct": 0
+  },
+  "mixed": {
+   "n": 2800,
+   "exactPct": 100,
+   "flipPct": 0
+  }
+ },
+ "histogram": {
+  "min": {
+   "0": 9136
+  },
+  "max": {
+   "0": 9136
+  }
+ },
+ "byFeature": [
+  {
+   "key": "def-boost",
+   "n": 492,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-hp",
+   "n": 437,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "screen:LightScreen",
+   "n": 375,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "screen:Reflect",
+   "n": 344,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "burn",
+   "n": 341,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-boost",
+   "n": 329,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "crit",
+   "n": 280,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-hp",
+   "n": 230,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:burn",
+   "n": 72,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:toxic",
+   "n": 71,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:poison",
+   "n": 70,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:asleep",
+   "n": 67,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:paralysis",
+   "n": 64,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "def-status:frozen",
+   "n": 63,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:poison",
+   "n": 62,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:asleep",
+   "n": 57,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:frozen",
+   "n": 57,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:burn",
+   "n": 57,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:paralysis",
+   "n": 52,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "att-status:toxic",
+   "n": 51,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  }
+ ],
+ "byMove": [
+  {
+   "key": "poison-sting",
+   "n": 89,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "explosion",
+   "n": 86,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "wrap",
+   "n": 86,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "fury-swipes",
+   "n": 84,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "fury-attack",
+   "n": 82,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "bind",
+   "n": 81,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "solar-beam",
+   "n": 81,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "night-shade",
+   "n": 80,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "spike-cannon",
+   "n": 79,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "double-kick",
+   "n": 78,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "dragon-rage",
+   "n": 76,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "fire-spin",
+   "n": 74,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "struggle",
+   "n": 74,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "constrict",
+   "n": 74,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "pin-missile",
+   "n": 74,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "barrage",
+   "n": 72,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "comet-punch",
+   "n": 71,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "hyper-beam",
+   "n": 70,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "seismic-toss",
+   "n": 70,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "twineedle",
+   "n": 70,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "bonemerang",
+   "n": 69,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "psybeam",
+   "n": 69,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "thunderbolt",
+   "n": 69,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "mega-drain",
+   "n": 68,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "self-destruct",
+   "n": 68,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  }
+ ],
+ "byDirection": [
+  {
+   "key": "survive",
+   "n": 4640,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  },
+  {
+   "key": "ko",
+   "n": 4496,
+   "mismatchPct": 0,
+   "flipPct": 0,
+   "rollsLowPct": 0,
+   "rollsHighPct": 0,
+   "meanDiff": 0
+  }
+ ],
+ "bareMisses": [],
+ "worst": [],
+ "meta": {
+  "n": 10000,
+  "seed": 4,
+  "movePool": 81,
+  "calcVersion": "0.12.0",
+  "seconds": 1.4
+ }
+}

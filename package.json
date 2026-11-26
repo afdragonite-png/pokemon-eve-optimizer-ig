@@ -1,0 +1,26 @@
+{
+  "name": "ev-optimizer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:calc": "vitest run tests/calcParity.test.js",
+    "parity": "node tests/parity/cli.js",
+    "parity:gen": "node tests/parity/genCli.js",
+    "parity:baseline": "node tests/parity/cli.js --update-baseline",
+    "optscore": "node tests/parity/optimizerCli.js"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@smogon/calc": "^0.12.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
+  }
+}
